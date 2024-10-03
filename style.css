@@ -448,10 +448,14 @@
             width: 30px;
             height: 35px;
             cursor: pointer;
-            right: 150px;
+            /* right: 150px; */
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: .5s;
+        }
+        .btnactiv {
+            transform: translateX(-120px);
         }
         .bouton::after {
             content: "";
